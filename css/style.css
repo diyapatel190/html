@@ -1,0 +1,85 @@
+/* target the body of the page */
+body{
+  /* adjusting the background */
+  background-color: #0e0e0e;
+  color: #FD5E31;
+  overflow: hidden;
+  background: url('../img/poster.jpg');
+  background-image: url('../img/poster.jpg'),linear-gradient(rgba(0,0,0,0.65));
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 25px;
+}
+/* navigating through different classes and divisions to adjust font styling */
+.logo-container{
+  text-align: center;
+  width: inherit;
+  transform: rotate(-8deg);
+  margin-top: 30%;
+  position: sticky;
+}
+.title{
+  font-size: 55px;
+  color: #FD5E31;
+  font-family: 'Black Ops One', cursive;
+  font-style: italic;
+  margin: 0;
+}
+.caption{
+  font-size: 18px;
+  color: #FD5E31;
+  font-family: 'Saira Stencil One', cursive;
+  font-weight: normal;
+  font-style: italic;
+  margin: 0;
+  letter-spacing: 3px;
+  margin-top: -12px;
+}
+.caption1{
+  font-size: 22px;
+  color: #ffffff;
+  font-family: 'Saira Stencil One', cursive;
+  font-weight: normal;
+  font-style: italic;
+  margin: 0;
+  letter-spacing: 3px;
+  margin-top: -15px;
+}
+.info-container{
+  text-align: center;
+  margin-top:auto;
+  position: sticky;
+}
+.director{
+  font-size: 16px;
+  color: #ffffff;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  letter-spacing: 8px;
+  margin-top: 2px;
+}
+p{
+  font-size: 4px;
+  color: #ffffff;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  letter-spacing: 2px;
+  margin-top: -15px;
+}
+.caption3{
+  font-size: 8px;
+  color: #ffffff;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  letter-spacing: 5px;
+  margin-top: 8px;
+}
+.caption4{
+  font-size: 20px;
+  color: #FD5E31;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  word-spacing: 3px;
+  margin-top: -13px;
+}
